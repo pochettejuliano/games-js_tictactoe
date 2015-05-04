@@ -27,13 +27,13 @@ function onTileClick () {
 
   if ( checkForWin( xSum ) ) {
     // check if win for X
-    $( "body" ).append( "<h2>X Wins!</h2" );
+    $( "body" ).append( "<h2>X Wins! Reload the page to play again.</h2" );
   } else if ( checkForWin( oSum ) ) {
     // check if win for O
-    $( "body" ).append( "<h2>O Wins!</h2" );
+    $( "body" ).append( "<h2>O Wins! Reload the page to play again.</h2" );
   } else if ( clickCount == cellCount ) {
     // check if draw
-    $( "body" ).append( "<h2>It's a tie!</h2" );
+    $( "body" ).append( "<h2>It's a tie! Reload the page to play again.</h2" );
   }
 }
 
